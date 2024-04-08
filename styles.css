@@ -1,0 +1,134 @@
+
+
+p {
+    font-size: normal;
+    font-family: Arial, serif;
+    letter-spacing: 1;
+    color: #2d232b;
+}
+
+a:hover {
+    color: #b68a6b;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+body {
+    max-width : 90%;
+    background: radial-gradient(circle, #f4fbd1, #bbaa7e);
+    /*background-image: url("https: //opengameart.org/sites/default/files/oga-textures/84792/cloth.png");*/
+    background-image: url("Assets/Background.png");
+    background-repeat: repeat;
+    background-size: 50%;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+.good {
+    border: 2px rgb(0, 200, 0) solid;
+    color :rgb(0, 200, 0);
+}
+
+.bad {
+    border: 2px rgb(255, 0, 0) solid;
+    color:rgb(255, 0, 0);
+}
+
+.bad, .good {
+    text-transform: capitalize;
+    background-color: #bbaa7e90;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 80%;
+    border-radius: 10px;
+}
+
+blockquote {
+    font-size: 140%;
+    background-color: #bbaa7e50;
+    /*border-left: 3px;*/
+    font-style: italic;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 5px rgba(0, 0, 0, 0.25) solid;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 30px;
+}
+.img0 {
+    width: 420px;
+    margin-top: 15px;
+}
+.img1 {
+    width: 500px;
+        margin-top: 25px;
+}
+
+table {
+    background-color: #bbaa7e50;
+}
+
+.FirstParagraph {
+    font-weight: bold;
+}
+
+.flex {
+    display:flex;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.Article {
+border-radius: 30px;
+border: 2px rgba(0, 0, 0, 0.25) solid;
+padding: 1%;
+margin: 1%;
+text-align: justify;
+width: 100%;
+background-color:  #bbaa7e30;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid #bbaa7e90;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #bbaa7e70;
+    border: 3px solid #bbaa7e90;
+    padding: 5px;
+}
+
+td {
+    background-color: #bbaa7e40;
+    border: 3px solid #bbaa7e90;
+    text-align: center;
+    padding: 5px;
+}
+
+table caption{
+    font-weight: bold;
+        background-color: #bbaa7e40;
+            border: 3px solid #bbaa7e90;
+            padding: 5px;
+}
